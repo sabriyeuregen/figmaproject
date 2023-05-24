@@ -1,0 +1,80 @@
+.about {
+  width: 100%;
+  height: 500px;
+  background-color: #31bc9c;
+
+  &-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Catamaran", sans-serif;
+  }
+  .straight-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .line-left {
+      text-align: center;
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+      font-family: "Catamaran", sans-serif;
+      margin-bottom: 6px;
+      margin-right: 10px;
+    }
+    .line-right {
+      text-align: center;
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+      font-family: "Catamaran", sans-serif;
+      margin-bottom: 6px;
+      margin-left: 10px;
+    }
+    .startpage-star {
+      color: white;
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  .about-paragraph {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 185px;
+    width: 610px;
+    height: 100px;
+
+    .paragraph-left {
+      font-size: 16px;
+      width: 300px;
+      height: 100px;
+      color: white;
+      font-family: "Catamaran", sans-serif;
+    }
+    .paragraph-rigth {
+      font-size: 16px;
+      width: 300px;
+      height: 100px;
+      color: white;
+      font-family: "Catamaran", sans-serif;
+    }
+  }
+  .button {
+      button {
+         position: relative;
+         border-style: solid;
+         border-color: white;
+         background-color: #31bc9c;
+         border-radius: 5px;
+         width: 150px;
+         height: 50px;
+         color: white;
+         font-weight: bold;
+         top: 80px;
+         left: 44%;
+      }
+  }
+}

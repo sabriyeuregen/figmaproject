@@ -9,14 +9,14 @@ const StartBootstrap = () => {
       </div>
       <div className="startpage-headline">START BOOTSTRAP</div>
       <div className="straight-line">
-        <div className="line-left">-</div>
+        <div className="line-left"><span>---------</span></div>
         <div className="startpage-star">
           <FaStar />
         </div>
-        <div className="line-rigth">-</div>
+        <div className="line-right"><span>---------</span></div>
       </div>
       <div className="startpage-title">
-        <span>Graphic Designer-Web Designer-Illustrator</span>
+        <span>Graphic Designer - Web Designer - Illustrator</span>
       </div>
     </div>
   );
